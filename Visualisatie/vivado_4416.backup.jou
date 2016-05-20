@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sun Apr 10 12:41:47 2016
+# Process ID: 4416
+# Current directory: C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6564 C:\Users\Ben\Documents\GitHub\Psoc_robot\VHDL_files\visualisatie\visualisatie.xpr
+# Log file: C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/vivado.log
+# Journal file: C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/visualisatie.xpr
+reset_run impl_1
+1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+close_design
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+update_compile_order -fileset sim_1
+open_run impl_1
+close_design
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+close_design
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -noclean_dir 
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+close_design
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

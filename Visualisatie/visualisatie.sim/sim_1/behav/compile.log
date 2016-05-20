@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/clk_wiz_0_clk_wiz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0_clk_wiz
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/clk_wiz_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/Vga_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top

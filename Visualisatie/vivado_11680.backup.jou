@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sat May 14 11:00:22 2016
+# Process ID: 11680
+# Current directory: C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7476 C:\Users\Ben\Documents\GitHub\Psoc_robot\VHDL_files\visualisatie\visualisatie.xpr
+# Log file: C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/vivado.log
+# Journal file: C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/visualisatie.xpr
+launch_simulation
+source Top.tcl
+close_sim
