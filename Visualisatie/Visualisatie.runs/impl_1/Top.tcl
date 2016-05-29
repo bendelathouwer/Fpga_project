@@ -42,14 +42,16 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
+set_msg_config  -ruleid {1}  -id {USF-XSim 62}  -string {{ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.}}  -suppress 
 
 start_step write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   open_checkpoint Top_routed.dcp
-  set_property webtalk.parent_dir C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/visualisatie.cache/wt [current_project]
+  set_property webtalk.parent_dir C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.cache/wt [current_project]
   catch { write_mem_info -force Top.mmi }
   write_bitstream -force Top.bit 
   catch { write_sysdef -hwdef Top.hwdef -bitfile Top.bit -meminfo Top.mmi -file Top.sysdef }

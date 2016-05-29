@@ -7,7 +7,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.std_logic_unsigned.all;
 
 entity Top is
-    Port  (  CLK 		: in  STD_LOGIC;
+    Port  (
+            CLK 		 : in  STD_LOGIC;
             VGA_RED      : out  STD_LOGIC_VECTOR (3 downto 0);
             VGA_BLUE     : out  STD_LOGIC_VECTOR (3 downto 0);
             VGA_GREEN    : out  STD_LOGIC_VECTOR (3 downto 0);

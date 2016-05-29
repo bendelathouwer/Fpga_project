@@ -2,18 +2,128 @@
 # Vivado v2015.4 (64-bit)
 # SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
 # IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
-# Start of session at: Fri May 20 16:49:37 2016
-# Process ID: 11244
+# Start of session at: Fri May 27 14:20:31 2016
+# Process ID: 11276
 # Current directory: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7940 C:\Users\Ben\Documents\GitHub\Fpga_project\Visualisatie\Visualisatie.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13772 C:\Users\Ben\Documents\GitHub\Fpga_project\Visualisatie\Visualisatie.xpr
 # Log file: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/vivado.log
 # Journal file: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie\vivado.jou
-#-----------------------------------------------------------sstart_guioopen_project C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.xpr
-INFO: [Project 1-313] Project file moved from 'C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie' since last save.
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.xpr
 Scanning sources...
 Finished scanning sources
-INFO: [filemgmt 56-1] IPStaticSourceDir: Directory not found as 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.ip_user_files/ipstatic'; using path 'C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/visualisatie.ip_user_files/ipstatic' instead.
+WARNING: [filemgmt 56-3] IPStaticSourceDir: Could not find the directory 'C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/visualisatie.ip_user_files/ipstatic'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2015.4/data/ip'.oopen_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:07 . Memory (MB): peak = 796.387 ; gain = 207.000eexit
-INFO: [Common 17-206] Exiting Vivado at Fri May 20 16:49:59 2016...
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 823.625 ; gain = 231.492
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Vga_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Vga_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0_clk_wiz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0_clk_wiz
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Vga_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_TB
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:76]
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:77]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:45]
+INFO: [VRFC 10-240] VHDL file C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Vga_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Vga_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0_clk_wiz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0_clk_wiz
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Vga_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_TB
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 272df2b37cbf4abd945b2ec15369c7e6 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Vga_TB_behav xil_defaultlib.Vga_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_signed
+Compiling package std.textio
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture mmcme2_adv_v of entity unisim.MMCME2_ADV [\MMCME2_ADV("OPTIMIZED",10.125,0...]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture xilinx of entity xil_defaultlib.clk_wiz_0_clk_wiz [clk_wiz_0_clk_wiz_default]
+Compiling architecture xilinx of entity xil_defaultlib.clk_wiz_0 [clk_wiz_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.Vga_control [vga_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_tb
+Built simulation snapshot Vga_TB_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav/xsim.dir/Vga_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May 27 14:40:30 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 851.402 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Vga_TB_behav -key {Behavioral:sim_1:Functional:Vga_TB} -tclbatch {Vga_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source Vga_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Vga_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 851.402 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 27 14:41:12 2016...

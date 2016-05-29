@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/visualisatie.runs/impl_1'
+HD_PWD='C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

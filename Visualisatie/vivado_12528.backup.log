@@ -1,0 +1,572 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri May 27 11:34:06 2016
+# Process ID: 12528
+# Current directory: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11456 C:\Users\Ben\Documents\GitHub\Fpga_project\Visualisatie\Visualisatie.xpr
+# Log file: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/vivado.log
+# Journal file: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IPStaticSourceDir: Could not find the directory 'C:/Users/Ben/Documents/GitHub/Psoc_robot/VHDL_files/visualisatie/visualisatie.ip_user_files/ipstatic'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2015.4/data/ip'.oopen_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 781.336 ; gain = 202.871exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 27 11:53:33 2016...
+eplacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/.Xil/Vivado-12528-GozerTheDestructor/dcp/Top.xdc]
+Finished Parsing XDC File [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/.Xil/Vivado-12528-GozerTheDestructor/dcp/Top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 971.449 ; gain = 0.961
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 971.449 ; gain = 0.961
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 1083.141 ; gain = 289.688
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 17 2015-18:01:07
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+warning: cannot open library dpcomm.dll, first required symbol ftdimgr_lock, frequently used Digilent JTAG cables cannot be supported
+warning: cannot open library djtg.dll, first required symbol DjtgGetPortCount, select Digilent JTAG cables cannot be supported
+
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri May 27 11:35:38 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 17 2015-18:01:07
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+warning: cannot open library dpcomm.dll, first required symbol ftdimgr_lock, frequently used Digilent JTAG cables cannot be supported
+warning: cannot open library djtg.dll, first required symbol DjtgGetPortCount, select Digilent JTAG cables cannot be supported
+
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+refresh_hw_server {localhost:3121}
+WARNING: [Labtoolstcl 44-27] No hardware targets exist on the server [localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the refresh_hw_server command to re-register the hardware targets.
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Fri May 27 11:37:29 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri May 27 11:38:36 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+open_project C:/Users/Ben/project_2/project_2.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Ben/Desktop/basys3_master/Basys3_Master.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2015.4/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+current_project Visualisatie
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+current_project project_2
+close_project
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Ben/project_2/project_2.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri May 27 11:39:26 2016...
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 17 2015-18:01:07
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+warning: cannot open library dpcomm.dll, first required symbol ftdimgr_lock, frequently used Digilent JTAG cables cannot be supported
+warning: cannot open library djtg.dll, first required symbol DjtgGetPortCount, select Digilent JTAG cables cannot be supported
+
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+disconnect_hw_server localhost:3121
+close_hw
+close_design
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Fri May 27 11:41:25 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/synth_1/runme.log
+[Fri May 27 11:41:25 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+open_hw
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri May 27 11:43:18 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 17 2015-18:01:07
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+warning: cannot open library dpcomm.dll, first required symbol ftdimgr_lock, frequently used Digilent JTAG cables cannot be supported
+warning: cannot open library djtg.dll, first required symbol DjtgGetPortCount, select Digilent JTAG cables cannot be supported
+
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Fri May 27 11:48:00 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/synth_1/runme.log
+[Fri May 27 11:48:00 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri May 27 11:50:32 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+close_hw
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Fri May 27 11:51:34 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/synth_1/runme.log
+[Fri May 27 11:51:34 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri May 27 11:58:43 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 17 2015-18:01:07
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+warning: cannot open library dpcomm.dll, first required symbol ftdimgr_lock, frequently used Digilent JTAG cables cannot be supported
+warning: cannot open library djtg.dll, first required symbol DjtgGetPortCount, select Digilent JTAG cables cannot be supported
+
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri May 27 12:20:15 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+disconnect_hw_server localhost:3121
+close_hw
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 17 2015-18:01:07
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+warning: cannot open library dpcomm.dll, first required symbol ftdimgr_lock, frequently used Digilent JTAG cables cannot be supported
+warning: cannot open library djtg.dll, first required symbol DjtgGetPortCount, select Digilent JTAG cables cannot be supported
+
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+close_hw
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Fri May 27 12:27:26 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Vga_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Vga_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0_clk_wiz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0_clk_wiz
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Vga_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_TB
+ERROR: [VRFC 10-1412] syntax error near ) [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:77]
+ERROR: [VRFC 10-704] formal clk has no actual or default value [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:69]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:45]
+INFO: [VRFC 10-240] VHDL file C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Fri May 27 12:30:26 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Vga_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Vga_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0_clk_wiz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0_clk_wiz
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Vga_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_TB
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:74]
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:75]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:45]
+INFO: [VRFC 10-240] VHDL file C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.
+set_msg_config -suppress -id {USF-XSim 62} -string {{ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.} } 
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Fri May 27 12:49:39 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Vga_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Vga_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0_clk_wiz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0_clk_wiz
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Vga_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_TB
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:74]
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:75]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:45]
+INFO: [VRFC 10-240] VHDL file C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 17 2015-18:01:07
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+warning: cannot open library dpcomm.dll, first required symbol ftdimgr_lock, frequently used Digilent JTAG cables cannot be supported
+warning: cannot open library djtg.dll, first required symbol DjtgGetPortCount, select Digilent JTAG cables cannot be supported
+
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [localhost]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri May 27 13:11:21 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+close_hw
+open_hw
+close_hw
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Vga_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Vga_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0_clk_wiz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0_clk_wiz
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Vga_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_TB
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:76]
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:77]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:45]
+INFO: [VRFC 10-240] VHDL file C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Vga_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Vga_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0_clk_wiz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0_clk_wiz
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Vga_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_TB
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:76]
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:77]
+ERROR: [VRFC 10-1464] type std_logic does not match with a string literal [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:84]
+ERROR: [VRFC 10-1464] type std_logic does not match with a string literal [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:86]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:45]
+INFO: [VRFC 10-240] VHDL file C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Vga_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Vga_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0_clk_wiz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0_clk_wiz
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Vga_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_TB
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:76]
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:77]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:45]
+INFO: [VRFC 10-240] VHDL file C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Fri May 27 13:45:03 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/impl_1/runme.log
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Vga_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj Vga_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0_clk_wiz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0_clk_wiz
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/clk_wiz_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wiz_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Vga_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Vga_TB
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:76]
+ERROR: [VRFC 10-1471] type error near vga_vs ; current type std_logic; expected type std_logic_vector [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:77]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd:45]
+INFO: [VRFC 10-240] VHDL file C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.srcs/sim_1/new/Vga_TB.vhd ignored due to errors
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 27 14:18:30 2016...

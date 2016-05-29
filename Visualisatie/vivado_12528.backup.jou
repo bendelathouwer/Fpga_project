@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri May 27 11:34:06 2016
+# Process ID: 12528
+# Current directory: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11456 C:\Users\Ben\Documents\GitHub\Fpga_project\Visualisatie\Visualisatie.xpr
+# Log file: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/vivado.log
+# Journal file: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.xpr
+open_run impl_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+refresh_hw_server {localhost:3121}
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_project C:/Users/Ben/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+current_project Visualisatie
+current_project project_2
+close_project
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+close_hw
+close_design
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_hw
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_hw
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+close_hw
+open_hw
+close_hw
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation
+set_msg_config -suppress -id {USF-XSim 62} -string {{ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.} } 
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation
+open_hw
+connect_hw_server
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_hw
+open_hw
+close_hw
+launch_simulation
+launch_simulation
+launch_simulation
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation
