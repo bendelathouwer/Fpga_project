@@ -4,6 +4,7 @@
 
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
+set_msg_config  -ruleid {1}  -id {USF-XSim 62}  -string {{ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/visualisatie.sim/sim_1/behav/xvhdl.log' file for more information.}}  -suppress 
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.compositeFile.enableAutoGeneration 0

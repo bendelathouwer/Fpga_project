@@ -81,9 +81,9 @@ uut: Top  Port Map
 stim_proc:process
 begin 
       CLK <='1';
-       wait for 50ns;
+       wait for 5ns;
        CLK <= '0';
-       wait for 50ns;
+       wait for 5ns;
 end process;
 
 end Behavioral;

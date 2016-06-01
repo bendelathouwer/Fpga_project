@@ -90,17 +90,17 @@ constant V_POL : std_logic := '1';
    signal v_sync_reg_dly : std_logic :=  not(V_POL);
    
    -- VGA R, G and B signals coming from the main multiplexers
-   signal vga_red_cmb   : std_logic_vector(3 downto 0);
-   signal vga_green_cmb : std_logic_vector(3 downto 0);
-   signal vga_blue_cmb  : std_logic_vector(3 downto 0);
+   signal vga_red_cmb   : std_logic_vector(3 downto 0):= (others =>'0');
+   signal vga_green_cmb : std_logic_vector(3 downto 0):= (others =>'0');
+   signal vga_blue_cmb  : std_logic_vector(3 downto 0):= (others =>'0');
    --The main VGA R, G and B signals, validated by active
-   signal vga_red    : std_logic_vector(3 downto 0);
-   signal vga_green  : std_logic_vector(3 downto 0);
-   signal vga_blue   : std_logic_vector(3 downto 0);
+   signal vga_red    : std_logic_vector(3 downto 0):= (others =>'0');
+   signal vga_green  : std_logic_vector(3 downto 0):= (others =>'0');
+   signal vga_blue   : std_logic_vector(3 downto 0):= (others =>'0');
    -- Register VGA R, G and B signals
-   signal vga_red_reg   : std_logic_vector(3 downto 0) := (others =>'0');
-   signal vga_green_reg : std_logic_vector(3 downto 0) := (others =>'0');
-   signal vga_blue_reg  : std_logic_vector(3 downto 0) := (others =>'0');
+   signal vga_red_reg   : std_logic_vector(3 downto 0):= (others =>'0');
+   signal vga_green_reg : std_logic_vector(3 downto 0):= (others =>'0');
+   signal vga_blue_reg  : std_logic_vector(3 downto 0):= (others =>'0');
   
   
   -----------------------------------------------------------
@@ -153,9 +153,9 @@ clk_out1 => pxl_clk);
         begin
           if (rising_edge(pxl_clk)) then
             if (h_cntr_reg >= (H_FP + FRAME_WIDTH - 1)) and (h_cntr_reg < (H_FP + FRAME_WIDTH + H_PW - 1)) then
-              h_sync_reg <= H_POL;
-            else
               h_sync_reg <= not(H_POL);
+            else
+              h_sync_reg <= H_POL;
             end if;
           end if;
         end process;
@@ -164,9 +164,9 @@ clk_out1 => pxl_clk);
         begin
           if (rising_edge(pxl_clk)) then
             if (v_cntr_reg >= (V_FP + FRAME_HEIGHT - 1)) and (v_cntr_reg < (V_FP + FRAME_HEIGHT + V_PW - 1)) then
-              v_sync_reg <= V_POL;
-            else
               v_sync_reg <= not(V_POL);
+            else
+              v_sync_reg <= V_POL;
             end if;
           end if;
         end process;

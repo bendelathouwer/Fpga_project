@@ -2,8 +2,8 @@
 # Vivado v2015.4 (64-bit)
 # SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
 # IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
-# Start of session at: Fri May 27 11:51:40 2016
-# Process ID: 14392
+# Start of session at: Wed Jun 01 11:07:15 2016
+# Process ID: 10876
 # Current directory: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/synth_1
 # Command line: vivado.exe -log Top.vds -mode batch -messageDb vivado.pb -notrace -source Top.tcl
 # Log file: C:/Users/Ben/Documents/GitHub/Fpga_project/Visualisatie/Visualisatie.runs/synth_1/Top.vds

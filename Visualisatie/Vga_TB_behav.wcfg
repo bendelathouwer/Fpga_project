@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Vga_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Vga_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="50011510628000fs"></ZoomStartTime>
+      <ZoomEndTime time="50014232628001fs"></ZoomEndTime>
+      <Cursor1Time time="50012848628000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="9" />
+   <wvobject db_ref_id="1" fp_name="/Vga_TB/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Vga_TB/VGA_HS" type="logic">
+      <obj_property name="ElementShortName">VGA_HS</obj_property>
+      <obj_property name="ObjectShortName">VGA_HS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Vga_TB/VGA_VS" type="logic">
+      <obj_property name="ElementShortName">VGA_VS</obj_property>
+      <obj_property name="ObjectShortName">VGA_VS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Vga_TB/VGA_RED" type="array">
+      <obj_property name="ElementShortName">VGA_RED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_RED[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Vga_TB/VGA_BLUE" type="array">
+      <obj_property name="ElementShortName">VGA_BLUE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_BLUE[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Vga_TB/VGA_GREEN" type="array">
+      <obj_property name="ElementShortName">VGA_GREEN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_GREEN[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Vga_TB/uut/Inst_Vga_control/bg_red" type="array">
+      <obj_property name="ElementShortName">bg_red[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bg_red[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Vga_TB/uut/Inst_Vga_control/bg_blue" type="array">
+      <obj_property name="ElementShortName">bg_blue[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bg_blue[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Vga_TB/uut/Inst_Vga_control/bg_green" type="array">
+      <obj_property name="ElementShortName">bg_green[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bg_green[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
